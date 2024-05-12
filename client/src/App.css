@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.App {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: lightyellow;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.note {
+  background-color: yellow;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  margin-block: 3px;
+  font-weight: bold;
+}
+
+button {
+  padding: 3px 5px;
+  margin-top: 10px;
+  margin-inline: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: rgb(11, 118, 241);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(9, 255, 9);
+  color: red;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
